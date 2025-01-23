@@ -60,6 +60,7 @@ int main(int argc, char* argv[]) {
         if (rank == 0) {
             std::cout << "Estimated Pi: " << result << std::endl;
             std::cout << "Time: " << end_time - start_time << " seconds" << std::endl;
+            
         }
         
         MPI_Finalize();
